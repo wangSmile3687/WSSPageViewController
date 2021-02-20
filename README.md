@@ -9,7 +9,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-<img height="600" src="https://github.com/WSmilec/WSSPageViewController/Example/gif/1.gif" />
+<img height="600" src="https://github.com/WSmilec/WSSPageViewController/tree/master/Example/gif/1.gif" />
 
 
 ## Requirements
