@@ -1,0 +1,6 @@
+framework module WSSPageViewController {
+  umbrella header "WSSPageViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

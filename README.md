@@ -9,6 +9,9 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+<img height="600" src="https://github.com/WSmilec/WSSPageViewController/Example/gif/1.gif" />
+
+
 ## Requirements
 
 ## Installation
@@ -22,7 +25,7 @@ pod 'WSSPageViewController'
 
 ## Author
 
-WSmilec, wangsi1@staff.sina.com.cn
+wangsi, 17601013687@163.com
 
 ## License
 

@@ -1,0 +1,16 @@
+PODS:
+  - WSSPageViewController (1.0.0)
+
+DEPENDENCIES:
+  - WSSPageViewController (from `../`)
+
+EXTERNAL SOURCES:
+  WSSPageViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WSSPageViewController: 6d6dab0634131f7b3bc509e4ecb3b820818c4ecf
+
+PODFILE CHECKSUM: 2391100a4c61dc995a228f8cebcf2c4868b8cdae
+
+COCOAPODS: 1.9.3

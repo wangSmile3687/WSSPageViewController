@@ -24,6 +24,8 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		CDD14A676E073813A45A388E /* Pods_WSSPageViewController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8337CF5671709D7FFDA3309A /* Pods_WSSPageViewController_Tests.framework */; };
+		D6997C9D25E0A39B00540DB8 /* WSSTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6997C9C25E0A39B00540DB8 /* WSSTestViewController.m */; };
+		D6997CA225E0A3AA00540DB8 /* WSSTestDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6997CA125E0A3AA00540DB8 /* WSSTestDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,8 @@
 /* Begin PBXFileReference section */
 		0C84A4A2DA557EC7892C53FB /* Pods_WSSPageViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WSSPageViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE0FFEA428B57A26E1667F3 /* Pods-WSSPageViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSSPageViewController_Tests.release.xcconfig"; path = "Target Support Files/Pods-WSSPageViewController_Tests/Pods-WSSPageViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3C46748D17C109D5AA62B174 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		5B95C0DE146038CC317C32AA /* WSSPageViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WSSPageViewController.podspec; path = ../WSSPageViewController.podspec; sourceTree = "<group>"; };
+		3C46748D17C109D5AA62B174 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5B95C0DE146038CC317C32AA /* WSSPageViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WSSPageViewController.podspec; path = ../WSSPageViewController.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WSSPageViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSSPageViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,8 +65,12 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8337CF5671709D7FFDA3309A /* Pods_WSSPageViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WSSPageViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8AE6824D3515F6795A52AC62 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8AE6824D3515F6795A52AC62 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9CB9318963FBB8CCE80E7EE5 /* Pods-WSSPageViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSSPageViewController_Example.debug.xcconfig"; path = "Target Support Files/Pods-WSSPageViewController_Example/Pods-WSSPageViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D6997C9B25E0A39B00540DB8 /* WSSTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSSTestViewController.h; sourceTree = "<group>"; };
+		D6997C9C25E0A39B00540DB8 /* WSSTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSSTestViewController.m; sourceTree = "<group>"; };
+		D6997CA025E0A3AA00540DB8 /* WSSTestDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSSTestDetailViewController.h; sourceTree = "<group>"; };
+		D6997CA125E0A3AA00540DB8 /* WSSTestDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSSTestDetailViewController.m; sourceTree = "<group>"; };
 		DCD4F3132F99DEF77E8FFD86 /* Pods-WSSPageViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSSPageViewController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WSSPageViewController_Tests/Pods-WSSPageViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E59E56481DDED5D5A7F80233 /* Pods-WSSPageViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSSPageViewController_Example.release.xcconfig"; path = "Target Support Files/Pods-WSSPageViewController_Example/Pods-WSSPageViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +109,6 @@
 				DCD4F3132F99DEF77E8FFD86 /* Pods-WSSPageViewController_Tests.debug.xcconfig */,
 				2DE0FFEA428B57A26E1667F3 /* Pods-WSSPageViewController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,6 +154,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* WSSViewController.h */,
 				6003F5A6195388D20070C39A /* WSSViewController.m */,
+				D6997C9B25E0A39B00540DB8 /* WSSTestViewController.h */,
+				D6997C9C25E0A39B00540DB8 /* WSSTestViewController.m */,
+				D6997CA025E0A3AA00540DB8 /* WSSTestDetailViewController.h */,
+				D6997CA125E0A3AA00540DB8 /* WSSTestDetailViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -258,6 +267,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -366,7 +376,9 @@
 			files = (
 				6003F59E195388D20070C39A /* WSSAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* WSSViewController.m in Sources */,
+				D6997C9D25E0A39B00540DB8 /* WSSTestViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				D6997CA225E0A3AA00540DB8 /* WSSTestDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

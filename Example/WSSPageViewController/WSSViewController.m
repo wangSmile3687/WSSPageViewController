@@ -7,7 +7,7 @@
 //
 
 #import "WSSViewController.h"
-
+#import "WSSTestViewController.h"
 @interface WSSViewController ()
 
 @end
@@ -17,13 +17,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    UIButton *jumpButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    jumpButton.frame = CGRectMake(20, 200, [UIScreen mainScreen].bounds.size.width-40, 50);
+    jumpButton.backgroundColor = [UIColor cyanColor];
+    [jumpButton addTarget:self action:@selector(jumpButtonClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:jumpButton];
+    
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)jumpButtonClick {
+    WSSTestViewController *vc = [[WSSTestViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end
